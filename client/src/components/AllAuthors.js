@@ -45,7 +45,14 @@ const AllAuthors = (props) => {
         title={"We have Quotes by"}
       />
 
-      <table>
+      <table
+        className="table table-striped
+        table table-bordered"
+        style={{
+          width: "400px",
+          Margin: "0 auto",
+        }}
+      >
         <thead>
           <tr>
             <th>Authors</th>

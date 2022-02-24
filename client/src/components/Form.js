@@ -26,7 +26,7 @@ const Form = (props) => {
           onChange={onchangeHandler}
         />
         {errors.name ? <p>{errors.name.message}</p> : null}
-        <div>
+        <div className="buttonRow">
           <button onClick={cancelHandler}>Cancel</button>
           <button type="submit">Submit</button>
         </div>

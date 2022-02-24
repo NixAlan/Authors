@@ -4,9 +4,11 @@ const Header = (props) => {
   const { link, linkText, title } = props;
   return (
     <header>
-      <h1>Favorite authors</h1>
-      <Link to={link}>{linkText}</Link>
-      <p>{title}:</p>
+      <div className="headerrow">
+        <h1>Favorite authors</h1>
+        <Link to={link}>{linkText}</Link>
+        <p>{title}:</p>.
+      </div>
     </header>
   );
 };
